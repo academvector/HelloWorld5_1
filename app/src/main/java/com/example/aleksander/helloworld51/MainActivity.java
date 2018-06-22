@@ -22,4 +22,8 @@ public class MainActivity extends Activity {
     }
 
 
+    public void onClickToNum(View view) {
+        Intent intent = new Intent(this, Numbers.class);
+        startActivity(intent);
+    }
 }
